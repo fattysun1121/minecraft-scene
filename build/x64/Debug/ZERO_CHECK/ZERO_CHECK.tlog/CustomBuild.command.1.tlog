@@ -1,0 +1,10 @@
+^C:\USERS\HARLEY\DESKTOP\ASSIGN_3\BUILD\CMAKEFILES\26EEAD6F5F75A5CCAD888664F6AE4323\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Harley/Desktop/Assign_3 -BC:/Users/Harley/Desktop/Assign_3/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Harley/Desktop/Assign_3/build/Assign_3.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
