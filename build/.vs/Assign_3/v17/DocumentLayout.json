@@ -39,9 +39,9 @@
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\Harley\\Desktop\\Assign_3\\main.cpp",
               "RelativeDocumentMoniker": "..\\main.cpp",
-              "ToolTip": "C:\\Users\\Harley\\Desktop\\Assign_3\\main.cpp",
-              "RelativeToolTip": "..\\main.cpp",
-              "ViewState": "AgIAAOsAAAAAAAAAAAAAAOcAAAAjAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Harley\\Desktop\\Assign_3\\main.cpp*",
+              "RelativeToolTip": "..\\main.cpp*",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAAAMsAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-15T04:33:58.834Z",
               "EditorCaption": ""
@@ -67,9 +67,10 @@
               "RelativeDocumentMoniker": "..\\vshader.vert",
               "ToolTip": "C:\\Users\\Harley\\Desktop\\Assign_3\\vshader.vert",
               "RelativeToolTip": "..\\vshader.vert",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-15T04:35:05.582Z"
+              "WhenOpened": "2024-11-15T04:35:05.582Z",
+              "EditorCaption": ""
             }
           ]
         }

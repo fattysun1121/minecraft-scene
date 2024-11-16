@@ -1,0 +1,20 @@
+Assignment 3
+
+Rendering an animated Minecraft scene.
+
+Step 1: Rendering basics
+- Render a textured square
+- Render a textured cube (mob)
+- Render a textured terrain (grass, dirt, stones)
+
+Step 2: Coordinates
+- use blender to model a terrain and render that
+- use blender to model Steve and render him
+- combine Steve and the terrain
+- add mob and a zombie to the terrain
+
+Step 3: Animation
+- animate Steve
+- animate mob
+
+
