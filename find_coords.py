@@ -1,4 +1,4 @@
-filename = "mob.obj"
+filename = "blender_files/grass.obj"
 
 f = open(filename, 'r')
 
@@ -33,16 +33,22 @@ for line in f:
         face = list(map(lambda s: s.strip('\n').split('/'), face))
         # first triangle
         for i in range(3):
-            vi, vti, vni = map(int, face[i])
+            attribs = list(map(int, face[i]))
+            attribs = list(map(lambda i: i - 1, attribs))
+            vi, _, vni = map(lambda i: i * 3, attribs)
+            _, vti, _ = map(lambda i: i * 2, attribs)
+            
             vertex_attribs += [vertices[vi], vertices[vi + 1], vertices[vi + 2],
                                tex_coords[vti], tex_coords[vti + 1]]
         # second triangle
         for i in range(3):
             index = (i + 2) % 4
-            vi, vti, vni = map(int, face[index])
+            attribs = list(map(int, face[index]))
+            attribs = list(map(lambda i: i - 1, attribs))
+            vi, _, vni = map(lambda i: i * 3, attribs)
+            _, vti, _ = map(lambda i: i * 2, attribs)
             vertex_attribs += [vertices[vi], vertices[vi + 1], vertices[vi + 2],
                                tex_coords[vti], tex_coords[vti + 1]]
-
 
 
 counter = 0
