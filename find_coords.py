@@ -45,7 +45,14 @@ for line in f:
 
 
 
+counter = 0
+
+for val in vertex_attribs:
+    if counter == 4:
+        print(str(round(val, 3)) + ',')
+        counter = 0
+    else:
+        print(round(val, 3), end=', ')
+        counter += 1
 
 
-
-print(vertex_attribs)
