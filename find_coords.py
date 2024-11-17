@@ -1,4 +1,4 @@
-filename = "blender_files/steve.obj"
+filename = "blender_files/stone.obj"
 
 f = open(filename, 'r')
 
